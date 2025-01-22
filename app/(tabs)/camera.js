@@ -27,7 +27,7 @@ export default function CameraScreen() {
 
     // Open the image picker
     const result = await ImagePicker.launchImageLibraryAsync({
-      mediaTypes: [ImagePicker.MediaType.Images],
+      mediaTypes: ["images"],
       allowsEditing: true,
       quality: 1,
     });
